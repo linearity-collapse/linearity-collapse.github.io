@@ -87,6 +87,10 @@ main {
   margin-inline-end: 5%;
 }
 
+.main-article > img {
+  max-width: 90%;
+}
+
 .main-article p {
   font-size: 1.2em;
 }

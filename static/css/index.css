@@ -1,3 +1,7 @@
 main {
   display: flex;
 }
+
+#site-explorer-to-page-list {
+  text-align: center;
+}
