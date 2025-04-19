@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at 25px 25px, #FFEDF3 3px, #F2CCE3 4px) 0 0 / 50px 50px;;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;    /* from 100 to 900 */
+  font-style: normal;
+  font-size: 24px;
+}
+
+.roboto-flex {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;    /* from 100 to 1000 */
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+}
+
+.hi-melody-regular {
+  font-family: "Hi Melody", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans-kr {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;    /* from 100 to 900 */
+  font-style: normal;
+}
+
+.nanum-pen-script-regular {
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.background-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(2px);
+  z-index: -50;
+}
+
+.background-drawing {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+.background-drawing img {
+  position: fixed;
+  width: 80px;
+  height: auto;
+}
+
+.background-drawing img:nth-child(1) {
+  top: 5vh;
+  left: 50px;
+  transform: rotate(5deg);
+}
+
+.background-drawing img:nth-child(2) {
+  top: 25vh;
+  left: 50px;
+  transform: rotate(-5deg);
+}
+
+.background-drawing img:nth-child(3) {
+  top: 45vh;
+  left: 50px;
+  transform: rotate(5deg);
+}
+
+.background-drawing img:nth-child(4) {
+  top: 65vh;
+  left: 50px;
+  transform: rotate(-5deg);
+}
+
+.background-drawing img:nth-child(5) {
+  top: 85vh;
+  left: 50px;
+  transform: rotate(5deg);
+}
+
+.background-drawing img:nth-child(6) {
+  top: 5vh;
+  right: 50px;
+  transform: rotate(-5deg);
+}
+
+.background-drawing img:nth-child(7) {
+  top: 25vh;
+  right: 50px;
+  transform: rotate(5deg);
+}
+
+.background-drawing img:nth-child(8) {
+  top: 45vh;
+  right: 50px;
+  transform: rotate(-5deg);
+}
+
+.background-drawing img:nth-child(9) {
+  top: 65vh;
+  right: 50px;
+  transform: rotate(5deg);
+}
+
+.background-drawing img:nth-child(10) {
+  top: 85vh;
+  right: 50px;
+  transform: rotate(-5deg);
+}
