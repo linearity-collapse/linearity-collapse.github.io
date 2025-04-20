@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: radial-gradient(circle at 25px 25px, #FFEDF3 3px, #F2CCE3 4px) 0 0 / 50px 50px;;
+  background-color: #F2CCE3;
 }
 
 h1 {
@@ -70,9 +70,12 @@ h1 {
 
 .background-drawing {
   position: fixed;
+  width: 200vw;
+  height: 200vh;
   top: 0;
   left: 0;
   z-index: -100;
+  background: radial-gradient(circle at 25px 25px, #FFEDF3 3px, #F2CCE3 4px) 0 0 / 50px 50px;
 }
 
 .background-drawing img {

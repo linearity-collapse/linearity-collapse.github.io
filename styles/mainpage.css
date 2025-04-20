@@ -2,11 +2,12 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  column-gap: 24px;
 }
 
 .profile-pic-container {
   flex-shrink: 1;
-  max-width: 540px;
+  max-width: 800px;
   padding: 36px;
 }
 
@@ -21,24 +22,53 @@
   flex-shrink: 1;
   flex-direction: column;
   justify-content: center;
-  max-width: 540px;
+  max-width: 800px;
 }
 
 .page-intro-title-text {
-  font-size: 84px;
+  font-size: 132px;
   margin: 0;
 }
 
-@media (max-width: 500px) {
+.page-intro-text {
+  font-size: 60px;
+  text-align: center;
+}
+
+@media (max-width: 850px) {
+  .page-intro-title-text {
+    font-size: 96px;
+    margin: 0;
+  }
+
+  .page-intro-text {
+    font-size: 54px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 570px) {
+  .page-intro-title-text {
+    font-size: 60px;
+    margin: 0;
+  }
+
+  .page-intro-text {
+    font-size: 48px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 345px) {
   .page-intro-title-text {
     font-size: 48px;
     margin: 0;
   }
-}
 
-.page-intro-text {
-  font-size: 36px;
-  text-align: center;
+  .page-intro-text {
+    font-size: 36px;
+    text-align: center;
+  }
 }
 
 .centered-div {
@@ -50,6 +80,10 @@
   flex: 1 0 0;
   max-width: 1080px;
   padding: 0 36px 0 36px;
+  background-color: #FAD4D9;
+  border-radius: 24px;
+  box-shadow: 5px 5px 10px 3px #909090;
+  margin-bottom: 24px;
 }
 
 .latest-posts-div h2 {
